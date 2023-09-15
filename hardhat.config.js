@@ -2,9 +2,8 @@
  * @type import('hardhat/config').HardhatUserConfig
  */
 
-// require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
-require("@nomiclabs/hardhat-ethers");
 
 const { ALCHEMY_API_KEY, PRIVATE_KEY } = process.env;
 
